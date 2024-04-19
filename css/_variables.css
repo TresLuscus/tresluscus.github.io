@@ -1,0 +1,56 @@
+:root {
+/* Начертания шрифтов */
+  --regular: 400;
+  --italic: italic;
+  --semibold: 600;
+  --bold: 700;
+
+/* Размер шрифтов  */
+  --default-fs: 16px;
+  --default-lh: 32px;
+  --middle-fs: 18px;
+  --middle-lh: 24px;
+  --mini-title-fs: 24px;
+  --section-title:48px;
+  --section-title-lh:65px;
+
+  /* Color */
+  --black: #000;
+  --light-black: #333;
+  --dark-gray: #666;
+  --gray: #999;
+  --light-purple: #D1A9F0;
+  --reg-purple: #C283F3;
+  --purple: #9D5CD0;
+  --dark-purple: #7943A4;
+  --green:#30BF39;
+  --blue:#26A5E4;
+  --red:#D11616;
+  --dark-white: #CACACA;
+  --light-white: #ECECEC;
+  --white: #fff;
+
+  /* cкорость анимации */
+  --delay: .3s;
+
+  /* Container */
+  --container-width: 1700px;
+  --container-padding: 50px;
+
+}
+
+
+
+@media (max-width: 640px) {
+  :root {
+    --container-padding: 15px;
+    --section-title: 28px;
+    --section-title-lh: 38px;
+    --default-fs: 14px;
+    --middle-fs: 18px;
+    --default-lh: 28px;
+
+  }
+
+}
+

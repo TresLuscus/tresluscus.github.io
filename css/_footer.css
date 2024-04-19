@@ -1,0 +1,37 @@
+.footer {
+  padding-top: 47px;
+  padding-bottom: 50px;
+  background-color: var(--black);
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.footer__link {
+  width: 45px;
+  height: 45px;
+  color: var(--dark-white);
+  opacity: 1;
+  transition: color var(--delay) ease-in-out;
+}
+
+.footer__link:focus:not(:hover):not(:active) {
+  opacity: 1;
+  color: var(--white);
+}
+
+
+.footer__link:hover {
+  opacity: 1;
+  color: var(--white);
+}
+
+.footer__link:active {
+  border-color: transparent;
+  opacity: 1;
+  color: var(--purple);
+}
